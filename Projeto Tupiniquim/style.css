@@ -1,0 +1,343 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: white;
+}
+
+header{
+    background-image: url(imagens/capa2.png);
+    background-size: cover;
+    background-position: 100%;
+    background-attachment: fixed;
+    color: white;
+    padding: 10px;
+
+}
+header > h1{
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+header > div#d1{
+    padding: 10px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    max-width: 300px;
+    min-width: 300px;
+}
+header > div#d1:hover{
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.445);
+}
+header > nav{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: -10px;
+}
+header > nav > a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+nav > a:hover{
+    background-color: rgba(255, 255, 255, 0.212);
+}
+
+main > h2{
+    text-align: center;
+    padding: 20px;
+}
+main > div#d2{
+    background-color: white;
+    border-radius: 20px;
+    max-width: 800px;
+    min-width: 320px;
+    margin: auto;
+}
+main > div#d2 > p{
+    padding: 10px;
+}
+div#d2:hover{
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.445);
+}
+main > div#d3{
+    background-color: white;
+    border-radius: 20px;
+    max-width: 800px;
+    min-width: 320px;
+    margin: auto;
+}
+main > div#d3 > p{
+    padding: 10px;
+}
+div#d3:hover{
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.445);
+}
+main > article{
+    background-color: white;
+    border-radius: 20px;
+    max-width: 800px;
+    min-width: 320px;
+    margin: auto;
+}
+article:hover{
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.445);
+}
+main > article > h3{
+    padding: 20px;
+}
+main > article > p{
+    padding: 10px;
+}
+
+main > article> div#botao > a{
+    background-color: green;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+    color: white;
+    
+}
+main > article> div#botao{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    
+}
+main > article> div#botao > a:hover{
+    box-shadow: 2px 2px 13px rgba(0, 0, 0, 0.288);
+}
+
+main > div#d4{
+    background-color: white;
+    border-radius: 20px;
+    max-width: 800px;
+    min-width: 320px;
+    margin: auto;
+}
+main > div#d4 > p{
+    padding: 10px;
+}
+div#d4:hover{
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.445);
+}
+main > div#d5{
+    background-color: white;
+    border-radius: 20px;
+    max-width: 500px;
+    min-width: 500px;
+    margin: auto;
+}
+main > div#d5 > p{
+    padding: 10px;
+}
+div#d5:hover{
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.445);
+}
+main > div#d6{
+    background-color: white;
+    border-radius: 20px;
+    max-width: 800px;
+    min-width: 320px;
+    margin: auto;
+}
+main > div#d6 > p{
+    padding: 10px;
+}
+div#d6:hover{
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.445);
+}
+
+footer{
+    padding: 30px;
+    background-color: black;
+    color: white;
+    margin-top: 40px;
+    text-align: center;
+}
+.lista1{
+    text-align: center;
+}
+
+iframe#mapa{
+    max-width: 500px;
+    min-width: 100px;
+    margin: auto;
+    border-radius: 20px 20px 20px 20px;
+}
+
+main > div#d7{
+    background-color: white;
+    border-radius: 20px;
+    max-width: 800px;
+    min-width: 320px;
+    margin: auto;
+}
+main > div#d7 > p{
+    padding: 10px;
+}
+div#d7:hover{
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.445);
+}
+
+main > div#d8{
+    background-color: white;
+    border-radius: 20px;
+    max-width: 800px;
+    min-width: 320px;
+    margin: auto;
+}
+main > div#d8 > p{
+    padding: 10px;
+}
+div#d8:hover{
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.445);
+}
+div#d8 > form{
+    margin-left: 140px;
+    padding: 10px;
+    margin-top: 10px;
+}
+div#d8 > form > label{
+    margin-top: 10px;
+}
+
+main > div > h3{
+    padding: 20px;
+}
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.form-group button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form-group button:hover {
+    background-color: #218838;
+}
+
+main > div#d9{
+    background-color: white;
+    border-radius: 20px;
+    max-width: 800px;
+    min-width: 320px;
+    margin: auto;
+}
+main > div#d9 > p{
+    padding: 10px;
+}
+div#d9:hover{
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.445);
+}
+
+main > div#d10{
+    background-color: white;
+    border-radius: 20px;
+    max-width: 800px;
+    min-width: 320px;
+    margin: auto;
+}
+main > div#d10 > p{
+    padding: 10px;
+}
+div#d10:hover{
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.445);
+}
+
+main > div#d11{
+    background-color: white;
+    border-radius: 20px;
+    max-width: 800px;
+    min-width: 320px;
+    margin: auto;
+}
+main > div#d11 > p{
+    padding: 10px;
+}
+div#d11:hover{
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.445);
+}
+
+main > div#d12{
+    background-color: white;
+    border-radius: 20px;
+    max-width: 800px;
+    min-width: 320px;
+    margin: auto;
+}
+main > div#d12 > p{
+    padding: 10px;
+}
+div#d12:hover{
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.445);
+}
+
+main > div#d13 > p{
+    text-align: center;
+}
+main > div#d13 > h3{
+    text-align: center;
+}
+
+main > div#d13{
+    background-color: white;
+    border-radius: 20px;
+    max-width: 800px;
+    min-width: 320px;
+    margin: auto;
+}
+main > div#d13 > p{
+    padding: 10px;
+}
+div#d13:hover{
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.445);
+}
+
+main > div#d14{
+    background-color: white;
+    border-radius: 20px;
+    max-width: 800px;
+    min-width: 320px;
+    margin: auto;
+}
+main > div#d14 > p{
+    padding: 10px;
+}
+div#d14:hover{
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.445);
+}
